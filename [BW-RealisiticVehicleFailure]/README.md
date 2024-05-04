@@ -32,6 +32,6 @@ RealisticVehiceFailure ESX Resmon = 0.02
 2. Configure your Mechanic Jobs in the `config.lua`
 
 ## Credits
-- [BW-RealisticVehicleFailure](https://discord.gg/Dw569n9d5C) by BW Scripts
+- [BW Scripts](https://discord.gg/Dw569n9d5C) by BW Scripts
 - [ox_lib](https://overextended.dev/ox_lib) by Overextended
 - [Original Vehicle Failure](https://github.com/iEns/RealisticVehicleFailure) by iEns
