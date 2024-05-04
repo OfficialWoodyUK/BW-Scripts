@@ -1,7 +1,7 @@
 ## Features
 
 - ESX Compatible
-- ox_invetory Compatible
+- ox_inventory Compatible
 - Configurable Weapons Table
 - Configurable Items Table
 - True or False option to include weapons in drop or include items in drop
@@ -17,7 +17,7 @@
 2. Place the `BW-deathdrop` folder in your FiveM server's `resources` directory.
 3. Ensure `BW-deathdrop` In Your Server cfg or resource.cfg example is below
 
-- ensure BW-RealisticVehicleFailure
+- ensure BW-deathdrop
 
 5. Start your FiveM server.
 
