@@ -15,7 +15,7 @@ RealisticVehiceFailure ESX Resmon = 0.02
 - `QBCore`
 
 ## Installation
-test
+
 1. Clone or download this repository.
 2. Place the `BW-RealisticVehicleFailure` folder in your FiveM server's `resources` directory.
 3. Install the Items and Images from the [INSTALL_ME] Folder
