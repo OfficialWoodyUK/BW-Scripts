@@ -24,4 +24,4 @@
 ## Credits
 - [BW Scripts](https://discord.gg/Dw569n9d5C) by BW Scripts
 - [ox_inventory](https://overextended.dev/ox_lib) by Overextended
-- [wasabi_deathdrop](https://github.com/wasabirobby/wasabi_deathdrop) by wasabirobby
+- [wasabi_deathdrop](https://github.com/wasabirobby/wasabi_deathdrop) by Wasabirobby
