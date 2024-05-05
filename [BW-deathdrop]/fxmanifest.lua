@@ -1,16 +1,12 @@
 fx_version 'cerulean'
 game 'gta5'
+author 'BW Scripts'
 lua54 'yes'
-author 'Buneuk'
-lua54 'yes'
+
+shared_scripts {
+  'config.lua'
+}
 
 server_scripts {
-  'config.lua',
-  'server/main.lua'
+  'server/*.lua'
 }
-
-escrow_ignore { 
-  'config.lua' 
-}
-
-dependency '/assetpacks'
