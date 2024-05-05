@@ -1,11 +1,13 @@
 ## Features
 
-- ESX Compatible
+- Auto Detect Framework
+- ESX Framework Support
 - ox_inventory Compatible
 - Configurable Weapons Table
 - Configurable Items Table
 - True or False option to include weapons in drop or include items in drop
-- Optimised Code
+- Optimised Code: 
+BW-deathdrop ESX Resmon = 0.00
 
 ## Requirements
 - `ESX`
@@ -14,8 +16,9 @@
 ## Installation
 
 1. Clone or download this repository.
-2. Place the `BW-deathdrop` folder in your FiveM server's `resources` directory.
-3. Ensure `BW-deathdrop` In Your Server cfg or resource.cfg example is below
+2. Rename [BW-deathdrop] to BW-deathdrop The script will spit out warnings if it is renamed!
+3. Place the `BW-deathdrop` folder in your FiveM server's `resources` directory.
+4. Ensure `BW-deathdrop` In Your Server cfg or resource.cfg example is below
 
 - ensure BW-deathdrop
 
