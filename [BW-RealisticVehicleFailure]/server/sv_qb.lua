@@ -15,6 +15,27 @@ end
 
 local QBCore = exports['qb-core']:GetCoreObject()
 
+local expectedFolderName = "BW-RealisticVehicleFailure"
+
+local function checkFolderName()
+    local currentFolder = GetCurrentResourceName()
+    if currentFolder ~= expectedFolderName then
+        print("^1WARNING: Script folder has been renamed! It has to be 'BW-RealisticVehicleFailure'^0")
+    end
+end
+
+local function checkFileIntegrity()
+
+end
+
+local function InitializeScript()
+    checkFolderName()
+    checkFileIntegrity()
+
+end
+
+InitializeScript()
+
 QBCore.Functions.CreateUseableItem("cleaningkit", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
     if Player then
