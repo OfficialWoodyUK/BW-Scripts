@@ -2,8 +2,8 @@
 
 - Auto Detect Framework Supports ESX & QBCore
 - Optimised Code:
-RealisticVehicleFailure QBCore Resmon = 0.01,
-RealisticVehiceFailure ESX Resmon = 0.02
+BW-RealisticVehiceFailure QBCore Resmon = 0.01,
+BW-RealisticVehiceFailure ESX Resmon = 0.02
 - Includes Vehicle Repairkits and Cleaning Kits includes Images / item layout in qb, ox & sql
 - Job lock to disable Repairkits when the configured Jobs are on duty 
 - Drag & Drop Script Very Easy To Use
