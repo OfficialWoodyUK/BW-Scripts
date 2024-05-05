@@ -15,6 +15,27 @@ end
 
 ESX = exports["es_extended"]:getSharedObject()
 
+local expectedFolderName = "BW-RealisticVehicleFailure"
+
+local function checkFolderName()
+    local currentFolder = GetCurrentResourceName()
+    if currentFolder ~= expectedFolderName then
+        print("^1WARNING: Script folder has been renamed! It has to be 'BW-RealisticVehicleFailure'^0")
+    end
+end
+
+local function checkFileIntegrity()
+
+end
+
+local function InitializeScript()
+    checkFolderName()
+    checkFileIntegrity()
+
+end
+
+InitializeScript()
+
 local function countMechanics()
     local mechCount = 0
     for _, player in ipairs(ESX.GetExtendedPlayers()) do
