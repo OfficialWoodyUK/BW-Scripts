@@ -1,6 +1,6 @@
 fx_version 'cerulean'
 game 'gta5'
-author 'BW Scripts'
+author 'ByteWay Studios'
 lua54 'yes'
 
 shared_scripts {
