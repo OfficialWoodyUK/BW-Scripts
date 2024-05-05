@@ -17,7 +17,7 @@ RealisticVehiceFailure ESX Resmon = 0.02
 ## Installation
 
 1. Clone or download this repository.
-2. Rename [BW-RealisticVehicleFailure] to BW-RealisticVehicleFailure
+2. Rename [BW-RealisticVehicleFailure] to BW-RealisticVehicleFailure The script will spit out warnings if it is renamed!
 3. Place the `BW-RealisticVehicleFailure` folder in your FiveM server's `resources` directory.
 4. Install the Items and Images from the [INSTALL_ME] Folder
 5. Ensure `BW-RealisticVehicleFailure` After `ox_lib` In Your Server cfg or resource.cfg example is below
