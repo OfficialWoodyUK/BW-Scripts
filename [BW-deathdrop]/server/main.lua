@@ -1,6 +1,40 @@
-if Config.Framework == "ESX" then
+if GetResourceState('es_extended') ~= 'started' then return end
+
+-- Framework detection
+if exports['es_extended'] then
+    ESX = exports['es_extended']:getSharedObject()
+    QBCore = nil -- Set QBCore to nil to avoid false detection
+    print("Detected framework: esx")
+elseif exports['qb-core'] then
+    ESX = nil -- Set ESX to nil to avoid false detection
+    print("Detected framework: qb is not supported at the moment")
+else
+    print("Unknown framework or resource not started")
+    return
+end
 
 ESX = exports["es_extended"]:getSharedObject()
+
+local expectedFolderName = "BW-deathdrop"
+
+local function checkFolderName()
+    local currentFolder = GetCurrentResourceName()
+    if currentFolder ~= expectedFolderName then
+        print("^1WARNING: Script folder has been renamed! It has to be 'BW-deathdrop'^0")
+    end
+end
+
+local function checkFileIntegrity()
+
+end
+
+local function InitializeScript()
+    checkFolderName()
+    checkFileIntegrity()
+
+end
+
+InitializeScript()
 
 RegisterServerEvent('esx:onPlayerDeath')
 AddEventHandler('esx:onPlayerDeath', function(data)
@@ -44,4 +78,3 @@ AddEventHandler('esx:onPlayerDeath', function(data)
         exports.ox_inventory:CustomDrop('Death Drop', inventory, deathCoords)
         end
     end)
-end
